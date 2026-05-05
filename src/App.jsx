@@ -8,7 +8,7 @@ import StatusPages from './pages/StatusPages'
 
 export default function App() {
   return (
-    <BrowserRouter basename="/portal">
+    <BrowserRouter>
       <Routes>
         <Route path="/" element={<Navigate to="/verify" replace />} />
         <Route path="/verify" element={<VerifyPage />} />
